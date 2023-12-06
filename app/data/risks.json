@@ -1,0 +1,50 @@
+[
+  {
+    "id": "OBJ1",
+    "description": "Get characters that we want",
+    "update": "2023-12-01",
+    "unit": "finance",
+    "objectives": [
+      {
+        "id": "okr1",
+        "description": "Get more gacha ticket"
+      },
+      {
+        "id": "okr2",
+        "description": "More money to whale"
+      }
+    ],
+    "risks": [
+      {
+        "okr": "OBJ1-OKR1",
+        "id": "FN-RF0001",
+        "title": "We don't have any gems left",
+        "category": "operational",
+        "description": "description",
+        "impact": 5,
+        "probability": 5,
+        "control": "control",
+        "after": {
+          "impact": 5,
+          "probability": 5
+        },
+        "response": "accept"
+      },
+      {
+        "okr": "OBJ1-OKR2",
+        "id": "FN-RF0002",
+        "title": "No money",
+        "category": "operational",
+        "description": "description",
+        "impact": 5,
+        "probability": 5,
+        "control": "control",
+        "after": {
+          "impact": 5,
+          "probability": 5
+        },
+        "response": "reduction"
+      }     
+    ]
+  } 
+]
